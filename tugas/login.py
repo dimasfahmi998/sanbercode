@@ -16,8 +16,8 @@ class TestLogin(unittest.TestCase):  # test scenario
         driver.implicitly_wait(10)
         driver.get(baseUrl)
         driver.find_element(
-            By.XPATH,
-            "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/a[2]",
+            By.CLASS_NAME,
+            "MuiTouchRipple-root mui-style-w0pj6f",
         ).click()
         driver.find_element(
             By.XPATH,
