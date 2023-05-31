@@ -17,5 +17,5 @@ def test_success_login(driver):  # test cases 1 try this one change
     driver.find_element(
         By.ID,
         elem.password,
-    ).send_keys(inputValid.Password)
+    ).send_keys(inputValid.password)
     driver.find_element(By.NAME, elem.loginButton).click()
