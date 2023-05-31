@@ -10,7 +10,7 @@ class TestLogin(unittest.TestCase): # test scenario
     def setUp(self):
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
 
-    def test_success_login(self): #test cases 1
+    def test_success_login(self): #test cases 1 try this one change
         driver = self.browser
         driver.implicitly_wait(10)
         driver.get("https://myskill.id/")
