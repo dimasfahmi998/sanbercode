@@ -8,7 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class TestLogin(unittest.TestCase):  # test scenario
     def setUp(self):
-        self.browser = webdriver.Chrome(ChromeDriverManager().install())
+        self.browser = webdriver.Firefox()
 
     def test_success_login(self):  # test cases 1 try this one change
         baseUrl = "https://myskill.id/"
